@@ -44,11 +44,11 @@ namespace WebApplication3.Controllers
             //    // 此處您可以對 userData 進行處理，存入資料庫等等
 
             //}
-            //var ddd = source;
+            var ddd = source;
 
-            var ddd = source[0].product.options[0].optionVaules;
-            var test = ddd[0];
-            var testPrice = TryGetField(test, "price");
+            //var ddd = source[0].product.options[0].optionVaules;
+            //var test = ddd[0];
+            //var testPrice = TryGetField(test, "price");
             return Ok("User created successfully");
         }
         private object TryGetProperty(object obj, string propName)
